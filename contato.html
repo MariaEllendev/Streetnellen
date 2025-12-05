@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Streetnellen</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="Navegação">
+            <img src="img/img/Streetnellen.png" alt="Logo Streetnellen" width="50" height="50">
+            <nav class="nav-desktop">
+                <a href="index.html">Início</a>
+                <a href="projeto.html">Projetos</a>
+                <a href="privacidade.html">Política de privacidade</a>
+                <a href="apresentacao.html">Apresentação</a>
+            </nav>
+            <div class="pesquisa">
+                <input type="text" placeholder="Pesquisa">
+                <button>
+                    <img src="https://cdn0.iconfinder.com/data/icons/essentials-9/128/__Search-64.png" alt="Pesquisar"
+                        width="8px" height="8px">
+                </button>
+            </div>
+            <div class="usuario">
+                <button>
+                    <img src="https://cdn3.iconfinder.com/data/icons/font-awesome-regular-1/512/user-256.png" width="16"
+                        height="16" alt="Usuário">
+                    Entrar
+                </button>
+             
+            </div>
+            <input type="checkbox" id="menu-escondido" class="menu-escondido">
+            <label for="menu-escondido" class="hamburguer">
+                <span class="linha linha1"></span>
+                <span class="linha linha2"></span>
+                <span class="linha linha3"></span>
+            </label>
+            <ul class="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="mailto:mariaer.pinho@senacsp.edu.br">E-mail</a></li>
+                <li><a href="tel:11940028922">Telefone</a></li>
+                <li><a href="https://wa.me/+5511940028922">WhatsApp</a></li>
+                <li><a href="./cadastro.html">Cadastro</a></li>
+                <li><a href="./projeto.html">Projeto</a></li>
+                <li><a href="./privacidade.html">Privacidade</a></li>
+                <li><a href="./apresentacao.html">Apresentação</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <br>
+        <br>
+        <h1><b><i>Entre em Contato Conosco</i></b></h1>
+        <br>
+        <br>
+        <div class="controle">
+            <h2>Fale com a Streetnellen</h2>
+            <p>Tem alguma dúvida, sugestão ou quer saber mais sobre nossos produtos? Entre em contato conosco!</p>
+            <br>
+            <form>
+                <div>
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" id="telefone" name="telefone">
+                </div>
+                <div>
+                    <label for="assunto">Assunto:</label>
+                    <select id="assunto" name="assunto" required>
+                        <option value="">Selecione um assunto</option>
+                        <option value="duvida">Dúvida sobre produtos</option>
+                        <option value="pedido">Informações sobre pedidos</option>
+                        <option value="sugestao">Sugestões</option>
+                        <option value="reclamacao">Reclamações</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="6" required
+                        placeholder="Digite sua mensagem aqui..."></textarea>
+                </div>
+                <div>
+                    <button type="submit">Enviar Mensagem</button>
+                </div>
+            </form>
+        </div>
+        <br>
+        <br>
+        <div class="controle">
+            <h2>Outras Formas de Contato</h2>
+            <br>
+            <h3><b>E-mail:</b> mariaer.pinho@senacsp.edu.br</h3>
+            <br>
+            <h3><b>Telefone:</b> (11) 94002-8922</h3>
+            <br>
+            <h3><b>WhatsApp:</b> <a href="https://wa.me/+5511940028922" target="_blank">(11) 94002-8922</a></h3>
+            <br>
+            <h3><b>Horário de Atendimento:</b></h3>
+            <p>Segunda a Sexta: 9h às 18h</p>
+            <p>Sábado: 9h às 14h</p>
+            <p>Domingo: Fechado</p>
+        </div>
+        <br>
+        <br>
+    </main>
+</body>
+
+</html>
